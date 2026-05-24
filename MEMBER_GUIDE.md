@@ -1,30 +1,28 @@
-    # Member 1 Auth and Security
+    # Member 2 Messaging and Database
 
     ## Branch to use
-    `auth-module`
+    `chat-module`
 
     ## Main files to work on
-    - `server/controllers/userController.js`
-- `server/routes/userRoutes.js`
-- `server/models/User.js`
-- `server/middleware/authMiddleware.js`
-- `server/lib/utils.js`
+    - `server/controllers/messageController.js`
+- `server/routes/messageRoutes.js`
+- `server/models/Message.js`
+- `server/lib/cloudinary.js`
 
     ## Work included
-    - login and signup
-- JWT authentication
-- password hashing
-- profile management
-- protected routes
+    - one-to-one messaging
+- message storage and retrieval
+- media handling
+- MongoDB message logic
 
     ## Commands
     ```bash
     git clone https://github.com/YOUR_USERNAME/talksync-production.git
     cd talksync-production
-    git checkout -b auth-module
+    git checkout -b chat-module
     git add .
-    git commit -m "completed auth-module"
-    git push origin auth-module
+    git commit -m "completed chat-module"
+    git push origin chat-module
     ```
 
     ## Merge flow
